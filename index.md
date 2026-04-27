@@ -33,14 +33,19 @@ After combining both survey datasets and filtering out incomplete responses, I c
 
 ## Conclusion
 
-The data moderately supports the idea. Novice students consistently rated optional pre-lecture videos more favorably than experienced students. Since experienced students are largely indifferent, making videos optional means they cost nothing for that group while providing real value to beginners.
+**Summary of Findings:**
 
-**Trade-offs to consider:**
-- Creating videos adds significant workload for instructional staff
-- Optional content may become de facto required in students' minds
-- Students with experience showed lower interest
+The analysis examined whether students with less prior programming experience rate the idea of optional pre-lecture preparation videos more favorably than students with more experience. The data provides moderate support for this idea. The box plot (Visualization 2) shows that students with no prior experience tend to give higher median ratings to the pre-lecture video proposal than students with 2+ years of experience. The  average ratings confirm this as well. Novices rated the idea higher, on average, than experienced students. Visualization 3 further reveals that students who find the course more difficult (which strongly overlaps with students who have less prior experience) also tend to want pre-lecture videos more, suggesting the same people are driving demand.
 
-**Future directions:**
-- Target videos only to students who self-identify as beginners at enrollment
-- Track whether video-watchers show improved understanding scores mid-semester
-- Test alternative low-cost formats like short readings or interactive code examples
+**Potential Costs, Trade-Offs, and Downsides:**
+
+- *Teaching staff workload:* Creating high-quality pre-lecture videos requires a lot of time from instructors or TAs. If this burden isn't offset by reduced traffic duringg office hours, it adds more work to the instructional team.
+- *Student over-reliance:* Optional videos risk becoming essentially required content in students' minds. Students who don't watch might feel disadvantaged during lectures, which could increase anxiety rather than reduce it.
+- *Mixed engagement:* Students with prior experience (whcih is a significant portion of the class) found the idea less valuable. Investing heavily in something that a large group isn't necessarily benefited by may not be the highest-ROI improvement.
+- *Uneven production quality:* If videos vary in quality across topics, student expectations might become inconsistent.
+
+**Extensions and Future Work:**
+
+1. *Targeted delivery:* Rather than offering videos to all students, the course could survey students at enrollment about their experience level and provide students an option to sign up for videos, which could reduce irrelevance for experienced students.
+2. *Measuring impact:* A future version of the analysis could track whether students who watch pre-lecture videos (if they exist) show higher `understanding` ratings or lower `difficulty` ratings mid-semester, creating a feedback loop for continuous improvement.
+3. *Exploring alternative formats:* Short readings, interactive code examples, or concept maps might provide the same preparation we're looking for with lower production cost. Future surveys could ask about format preferences explicitly.
