@@ -21,13 +21,13 @@ After combining both survey datasets and filtering out incomplete responses, I c
 ## Visualizations
 
 ### 1. Overall Distribution of Pre-Lecture Video Ratings
-![Chart 1](static/imgs/chart1.png)
+![Chart 1](/ex09/static/imgs/chart1.png)
 
 ### 2. Pre-Lecture Video Rating by Prior Experience Level
-![Chart 2](static/imgs/chart2.png)
+![Chart 2](/ex09/static/imgs/chart2.png)
 
 ### 3. Difficulty vs. Pre-Lecture Video Desire by Experience Level
-![Chart 3](static/imgs/chart3.png)
+![Chart 3](/ex09/static/imgs/chart3.png)
 
 ---
 
